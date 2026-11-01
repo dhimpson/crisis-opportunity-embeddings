@@ -29,7 +29,7 @@ SCRIPT_DIR = Path(__file__).parent
 
 # --- Settings ------------------------------------------------------------------
 
-WORD = "migration"
+WORD = "residential"
 
 # The same names, in the same order, as in 03_align_models.py
 MODEL_NAMES = ["1910-1916", "1917-1923", "1924-1930"]

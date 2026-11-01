@@ -144,3 +144,62 @@ Model: 1924-1930  (17,607 words)
 
 2. Words nearest to the average of ['residence', 'dwelling', 'law', 'block', 'home', 'ordinance']
    precinct, adjoining, sewerage, suburban, tubercular, lung, premises, regulated, structures, reformatory, suburbs, okfuskee, four-room, corporate, kitchens, overcrowded, inspectors, overflow, vacated, occupants
+
+   =======
+   Change over time:
+   Question: How has segregation changed over time in each of the models?
+
+   Answer: It did not really change that much. (Segregation was not the best word choice for this task when using a black history corpus).
+
+   1. How often 'segregation' appears
+   1910-1916: 720 times
+   1917-1923: 271 times
+   1924-1930: 586 times
+
+2. Nearest neighbors in each period
+   1910-1916: ordinance, ordinances, protesting, discrimination, ghetto, invalid, involving, jim-crow, opposing, valid
+   1917-1923: ordinances, jim-crowism, ordinance, discrimination, lawlessness, jim-crow, residential, unequal, crow, discriminatory
+   1924-1930: residential, unconstitutional, ordinances, legality, pending, clashes, discrimination, enactment, disfranchisement, clauses
+
+3. How far 'segregation' moved  (0 = no change)
+   1910-1916 -> 1917-1923: 0.27
+   1917-1923 -> 1924-1930: 0.19
+   1910-1916 -> 1924-1930: 0.23
+   'segregation' moved more than 29% of the 1,083 words used 200+ times in both periods
+
+Lets try 'ordinance' instead:
+
+Results for Ordinance:
+1. How often 'ordinance' appears
+   1910-1916: 246 times
+   1917-1923: 105 times
+   1924-1930: 108 times
+
+2. Nearest neighbors in each period
+   1910-1916: segregation, ordinances, invalid, valid, ghetto, injunction, anti-intermarriage, passage, amended, proposing
+   1917-1923: unconstitutional, injunction, sustained, ordinances, violating, validity, repeal, permitting, constitutionality, statutes
+   1924-1930: unconstitutional, enactment, injunction, repeal, violating,statute, enacted, clause, violation, ordinances
+
+3. How far 'ordinance' moved  (0 = no change)
+   1910-1916 -> 1917-1923: 0.23
+   1917-1923 -> 1924-1930: 0.15
+   1910-1916 -> 1924-1930: 0.22
+   'ordinance' moved more than 25% of the 1,083 words used 200+ times in both periods
+
+   Lastly, lets try 'residential':
+
+   1. How often 'residential' appears
+   1910-1916: 40 times
+   1917-1923: 42 times
+   1924-1930: 132 times
+
+2. Nearest neighbors in each period
+   1910-1916: theatres, residences, residents, districts, neighborhoods, railways, ordinances, conveyance, alleys, restaurants
+   1917-1923: city's, prohibit, congested, jim-crow, ordinances, areas, overcrowded, overcrowding, prohibiting, dwellings
+   1924-1930: segregation, clashes, suburban, ordinances, prostitution, subdivision, districts, congested, peonage, clauses
+
+3. How far 'residential' moved  (0 = no change)
+   1910-1916 -> 1917-1923: 0.16
+   1917-1923 -> 1924-1930: 0.22
+   1910-1916 -> 1924-1930: 0.19
+   'residential' moved more than 14% of the 1,083 words used 200+ times in both periods
