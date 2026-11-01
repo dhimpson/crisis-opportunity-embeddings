@@ -122,3 +122,25 @@ First Run 1917-1923:
 
 # Demonstrates the legal fight over ordinances. Also captures the violence of the era and the discrimination against/suspecion of black spaces (saloon, overcrowded, tenement).
 
+First Run 1924-1930
+Model: 1924-1930  (17,607 words)
+
+1. Nearest words to 'segregation'  (1.0 = identical direction, 0 = unrelated)
+   residential            0.834
+   unconstitutional       0.722
+   ordinances             0.711
+   legality               0.697
+   pending                0.693
+   clashes                0.692
+   discrimination         0.691
+   enactment              0.688
+   disfranchisement       0.685
+   clauses                0.683
+   enacted                0.682
+   flagrant               0.682
+   discriminatory         0.677
+   evade                  0.677
+   legislation            0.672
+
+2. Words nearest to the average of ['residence', 'dwelling', 'law', 'block', 'home', 'ordinance']
+   precinct, adjoining, sewerage, suburban, tubercular, lung, premises, regulated, structures, reformatory, suburbs, okfuskee, four-room, corporate, kitchens, overcrowded, inspectors, overflow, vacated, occupants

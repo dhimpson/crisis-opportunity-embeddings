@@ -1,7 +1,6 @@
 venv/
 __pycache__/
 models/
-plots/
 corpus-raw/
 corpus-clean/
 .DS_Store
