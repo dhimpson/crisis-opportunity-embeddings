@@ -203,3 +203,62 @@ Results for Ordinance:
    1917-1923 -> 1924-1930: 0.22
    1910-1916 -> 1924-1930: 0.19
    'residential' moved more than 14% of the 1,083 words used 200+ times in both periods
+
+======
+Gender and a word:
+
+first attempt: residential
+
+Model: 1924-1930
+Women words: woman, women, she, her, hers, herself, girl, girls
+Men words:   man, men, he, his, him, himself, boy, boys
+
+The 189 words closest to 'residential' (similarity 0.52 or more), sorted by which way they lean:
+
+  Lean toward WOMEN:
+   delaware (+0.13), city's (+0.13), playgrounds (+0.13), residence (+0.13), ruling (+0.12), gary (+0.12), similarly (+0.11), acute (+0.11), resort(+0.09), insures (+0.09), appeals (+0.09), louisville (+0.08), cities (+0.08), separation (+0.08), supreme (+0.07), asbury (+0.07), separate (+0.07), parks (+0.06), ruled (+0.06), towns (+0.06)
+
+  Lean toward MEN:
+   wholesale (-0.23), disfranchisement (-0.17), violence (-0.17), farming(-0.17), inevitably (-0.16), agitation (-0.15), transfer (-0.15), corporations (-0.14), operations (-0.13), specifically (-0.13), businesses (-0.13), enforce (-0.13), primaries (-0.13), lynching (-0.13), primary (-0.13), violation (-0.12), intermarriage (-0.12), administrative (-0.11), enacted (-0.11), divide (-0.11)
+
+  ('residential' itself scores -0.03)
+
+Saved the plot to plots/gender_residential_1924-1930.png
+
+# its interesting the actual court case names lean more towards women (delaware, louisville, asbury)
+ # words related to aggression and violence lean more to men (agitation, violation)
+
+ Second attempt: Ordinance
+ Model: 1924-1930
+Women words: woman, women, she, her, hers, herself, girl, girls
+Men words:   man, men, he, his, him, himself, boy, boys
+
+The 189 words closest to 'ordinance' (similarity 0.53 or more), sorted bywhich way they lean:
+
+  Lean toward WOMEN:
+   delaware (+0.13), ruling (+0.12), adopted (+0.12), similarly (+0.11), resort (+0.09), authorities (+0.09), insures (+0.09), appeals (+0.09), separation (+0.08), supreme (+0.07), testimony (+0.07), ruled (+0.06), council (+0.06), utterly (+0.05), jurisdiction (+0.05), declared (+0.05), court (+0.05), representation (+0.04), legislation (+0.04), protest (+0.04)
+
+  Lean toward MEN:
+   election (-0.21), ballot (-0.19), democratic (-0.19), voter (-0.19), mob (-0.19), nomination (-0.18), alleged (-0.18), procedure (-0.17), disfranchisement (-0.17), ticket (-0.17), violence (-0.17), defeat (-0.16), conviction (-0.16), dyer (-0.15), agitation (-0.15), transfer (-0.15), anti-lynching (-0.14), vote (-0.14), action (-0.14), process (-0.14)
+
+  ('ordinance' itself scores +0.03)
+
+Saved the plot to plots/gender_ordinance_1924-1930.png
+
+Second run with 'ordinance' and changed the year to 1910-1916
+
+Model: 1910-1916
+Women words: woman, women, she, her, hers, herself, girl, girls
+Men words:   man, men, he, his, him, himself, boy, boys
+
+The 109 words closest to 'ordinance' (similarity 0.53 or more), sorted bywhich way they lean:
+
+  Lean toward WOMEN:
+   amusement (+0.13), relief (+0.12), amendment (+0.12), assembly (+0.11), louisville (+0.10), adopted (+0.10), protests (+0.10), constantly (+0.08), complaint (+0.08), agitation (+0.08), causes (+0.08), park (+0.08), resolutions (+0.07), provision (+0.07), film (+0.05), residents (+0.05), operation (+0.05), outrage (+0.04), council (+0.04), appeals (+0.04)
+
+  Lean toward MEN:
+   mayor (-0.14), bills (-0.13), railway (-0.12), segregation (-0.11), principle (-0.11), verdict (-0.11), passage (-0.10), determined (-0.09), similar (-0.08), measures (-0.08), attempt (-0.08), unfair (-0.08), courtesy (-0.08), introduced (-0.07), violation (-0.07), appealed (-0.07), disfranchisement (-0.07), propose (-0.06), bill (-0.06), openly (-0.06)
+
+  ('ordinance' itself scores -0.07)
+
+Saved the plot to plots/gender_ordinance_1910-1916.png

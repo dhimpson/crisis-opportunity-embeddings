@@ -33,8 +33,8 @@ SCRIPT_DIR = Path(__file__).parent
 
 # --- Settings ------------------------------------------------------------------
 
-MODEL_NAME = "1924-1930"                 # which model in models/ to use
-TARGET = "education"
+MODEL_NAME = "1910-1916"                 # which model in models/ to use
+TARGET = "ordinance"
 
 WOMEN_WORDS = ["woman", "women", "she", "her", "hers", "herself", "girl", "girls"]
 MEN_WORDS = ["man", "men", "he", "his", "him", "himself", "boy", "boys"]
