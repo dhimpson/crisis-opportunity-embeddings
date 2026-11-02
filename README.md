@@ -5,6 +5,8 @@ W. E. B. Du Bois, 1910–) and *Opportunity: A Journal of Negro Life* (National 
 League, 1923–). Explore what the models learned, then align models from different
 periods to see how words changed meaning across the 1910s and 1920s.
 
+Research Question: How does *The Crisis* and *Opportunity* document segregation and racial residential segregation ordinances in the first thirty years of the twentieth century?
+
 Adapted from the 8510 Week 10 word-embeddings tutorial; scripts 01–05 work the same way.
 
 | Script | What it does | What you change |
